@@ -1,0 +1,20 @@
+{
+  "name": "dyslexiasteps-data",
+  "version": "0.1.0",
+  "description": "Free English phonics and sight word lists placed by grade (Pre-K to Grade 3) with the source of each placement, plus word lists in German, Spanish, French, Dutch and Brazilian Portuguese. CSV and JSON, CC BY 4.0.",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": { "types": "./index.d.ts", "default": "./index.js" },
+    "./word-lists.json": "./word-lists.json",
+    "./word-lists.csv": "./word-lists.csv",
+    "./package.json": "./package.json"
+  },
+  "files": ["index.js", "index.d.ts", "word-lists.json", "word-lists.csv", "DATA-LICENSE.md"],
+  "engines": { "node": ">=20.10" },
+  "homepage": "https://dyslexiasteps.com/word-lists-by-grade",
+  "repository": { "type": "git", "url": "git+https://github.com/Dyslexia-Steps/dyslexiasteps-data.git" },
+  "keywords": ["word-lists", "phonics", "sight-words", "dolch", "cvc-words", "dyslexia", "reading", "education", "dataset"],
+  "license": "MIT"
+}
